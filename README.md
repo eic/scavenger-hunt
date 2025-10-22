@@ -24,7 +24,7 @@ Look for the tag ![good_first_issue](https://img.shields.io/badge/-good%20first%
 Current maintainers of this lesson are 
 
 * Stephen JD Kay, @sjdkay, stephen.kay@york.ac.uk
-* Holly Szumila, @hszumila, hszumila@jlab.org>
+* Holly Szumila, @hszumila, hszumila@jlab.org
 
 ## Authors
 
