@@ -8,5 +8,6 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 >
 > - [Landing Page](https://eic.github.io/documentation/landingpage.html)
 > - [ePIC Tutorials](https://eic.github.io/documentation/tutorials.html)
+{: .prereq}
 
 {% include links.md %}
