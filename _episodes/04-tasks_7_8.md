@@ -2,6 +2,8 @@
 title: "Tasks 7-8"
 teaching: 0
 exercises: 120
+questions:
+- "Information and objectives for tasks 7-8"
 objectives:
 - "Find the final two parts of the file name!"
 ---
