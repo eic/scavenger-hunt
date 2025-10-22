@@ -4,7 +4,7 @@ teaching: 5
 exercises: 0
 questions:
 - "How do I start the scavenger hunt?"
-- objectives:
+objectives:
 - "Start the hunt!"
 keypoints:
 - "Welcome to the ePIC User Learning Scavenger Hunt!"
