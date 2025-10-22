@@ -1,5 +1,7 @@
 ---
 title: "Introduction"
+teaching: 5
+exercises: 0
 keypoints:
 - "Welcome to the ePIC User Learning Scavenger Hunt!"
 ---
