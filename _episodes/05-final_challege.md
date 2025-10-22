@@ -3,12 +3,12 @@ title: "Final Challenge"
 teaching: 0
 exercises: 120
 questions:
-- "Information and objectives for the final challenge
+- "Information on the final challenge"
 objectives:
-- "Solve the final challenge and submit your answer to win the grand prize"
+- "Solve the final challenge!"
 ---
 
-# Download Your File!
+# Download your file
 
 # Final Challenge
 
