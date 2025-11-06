@@ -48,4 +48,4 @@ Many event generators exist for a wide range of processes. In some cases, the sa
 
 Add info on processing numbers from file if neccessary to make them fit a certain format. E.g. take mod or similar. Link to a google form to check answers.
 
-Once you have your solutions from task 1-3, you can check your answers using [this link](https://forms.gle/gFqpKTd2nzmHNW6d8).
+Once you have your solutions from tasks 1-3, you can check your answers using [this link](https://forms.gle/gFqpKTd2nzmHNW6d8).
