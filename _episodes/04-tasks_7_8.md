@@ -33,3 +33,7 @@ When analysing simulated data, knowing the underlying truth is very important.
 # Answer Checker
 
 Add info on processing numbers from file if neccessary to make them fit a certain format. E.g. take mod or similar. Link to a google form to check answers.
+
+
+Once you have your solutions from tasks 7-8, you can check your answers using [this link](https://forms.gle/UsAd9T2W1Mq5cSfx9).
+
