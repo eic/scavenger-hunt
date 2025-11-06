@@ -39,4 +39,4 @@ The detector geometry for the ePIC detector is defined using the DD4he toolkit. 
 
 Add info on processing numbers from file if neccessary to make them fit a certain format. E.g. take mod or similar. Link to a google form to check answers.
 
-Once you have your solutions from task 1-3, you can check your answers using [this link](https://forms.gle/tX62X8uEkjtMQ6x28).
+Once you have your solutions from tasks 4-6, you can check your answers using [this link](https://forms.gle/tX62X8uEkjtMQ6x28).
