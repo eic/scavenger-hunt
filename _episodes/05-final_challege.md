@@ -12,7 +12,7 @@ objectives:
 
 Using the clues from tasks 1-8, download your file. Insert your solutions into the file path below to construct the required path and grab this file!
 
-- /volatile/eic/EPIC/RECO/<span style="color:blue">XX</span>.<span style="color:blue">YY</span>.<span style="color:blue">Z</span>/epic_craterlake/DIS/NC/<span style="color:red">II</span>x<span style="color:red">JJ</span>/minQ2=<span style="color:red">KK</span>/pythia8NCDIS_<span style="color:red">II</span>x<span style="color:red">JJ</span>_minQ2=<span style="color:red">KK</span>_beamEffects_xAngle=-0.025_hiDiv_<span style="color:green">A</span>.<span style="color:green">BBBB</span>.eicrecon.edm4eic.root
+- /volatile/eic/EPIC/RECO/<span style="color:blue">XX</span>.<span style="color:blue">YY</span>.<span style="color:blue">Z</span>/epic\_craterlake/DIS/NC/<span style="color:red">II</span>x<span style="color:red">JJ</span>/minQ2=<span style="color:red">KK</span>/pythia8NCDIS\_<span style="color:red">II</span>x<span style="color:red">JJ</span>\_minQ2=<span style="color:red">KK</span>\_beamEffects\_xAngle=-0.025\_hiDiv\_<span style="color:green">A</span>.<span style="color:green">BBBB</span>.eicrecon.edm4eic.root
   - <span style="color:blue">XX</span> - Your answer from task 1
   - <span style="color:blue">YY</span> - Your answer from task 2
   - <span style="color:blue">Z</span> - Your answer from task 3
