@@ -17,9 +17,11 @@ The "afterburner" is applied to event generator files to apply beam effects to t
 >   - Non-AB file - /volatile/eic/sjdkay/Scavenger_Hunt/NonAfterburned_File.hepmc3.tree.root
 >   - AB file - /volatile/eic/sjdkay/Scavenger_Hunt/Afterburned_File.hepmc3.tree.root
 > - Find the difference between the mean value of the x component of the momentum for the **beam electrons** in these two files.
-> - Take the absolute value of this difference, multiply it by $$10^{9}$$ and round it to the nearest integer and add 2. This is your clue for task 4.
-> - As a formula: $$round((abs(Diff)*10^{9})) + 2$$
+> - Take the absolute value of this difference, multiply it by $10^{9}$ and round it to the nearest integer and add 2. This is your clue for task 4.
 {: .challenge}
+
+As a formula:
+$$round((abs(Diff)*10^{9})) + 2$$
 
 > Comment:
 > - These are just .hepmc files converted to root trees, not simulation or reconstruction data at this point.
@@ -35,9 +37,12 @@ The simulation of the ePIC detector in eic-shell is via a Geant4 based DD4hep sm
 > - Find the **ratio** between the total hit energies for npsim to ddsim in the **barrel hadronic calormiter**.
 >   -  "HcalBarrelHits"
 > - Round your value for this ratio to the nearest integer and take $$10^{Ratio}$$. This value is your clue from task 5.
->   - $$Ratio = \frac{\sum E_{npsim}}{\sum E_{ddsim}}$$
->   -  $$round(Ratio) \rightarrow 10^{round(Ratio)}$$
 {: .challenge}
+
+Again, as a formula:
+
+$$Ratio = \frac{\sum E_{npsim}}{\sum E_{ddsim}}$$
+$$round(Ratio) \rightarrow 10^{round(Ratio)}$$
 
 # Task 6 - Looking at Geometry Files
 
