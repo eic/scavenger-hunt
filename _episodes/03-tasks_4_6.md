@@ -17,7 +17,8 @@ The "afterburner" is applied to event generator files to apply beam effects to t
 >   - Non-AB file - /volatile/eic/sjdkay/Scavenger_Hunt/NonAfterburned_File.hepmc3.tree.root
 >   - AB file - /volatile/eic/sjdkay/Scavenger_Hunt/Afterburned_File.hepmc3.tree.root
 > - Find the difference between the mean value of the x component of the momentum for the **beam electrons** in these two files.
-> - Take the absolute value of this difference, multiply it by 10^9 and round it to the nearest integer. This is your clue for task 4.
+> - Take the absolute value of this difference, multiply it by 10^9 and round it to the nearest integer and add 2. This is your clue for task 4.
+> - As a formula: int((abs(Diff)*10**9)) + 2
 {: .challenge}
 
 > Comment:
