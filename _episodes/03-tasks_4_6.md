@@ -35,6 +35,8 @@ The simulation of the ePIC detector in eic-shell is via a Geant4 based DD4hep sm
 > - Find the **ratio** between the total hit energies for npsim to ddsim in the **barrel hadronic calormiter**.
 >   -  "HcalBarrelHits"
 > - Round your value for this ratio to the nearest integer and take $10^{Ratio}$. This value is your clue from task 5.
+>   - $Ratio = \frac{\sum E_{npsim}}{\sum E_{ddsim}}$
+>   -  $int(Ratio) \rightarrow 10^{int(Ratio)}$
 {: .challenge}
 
 # Task 6 - Looking at Geometry Files
