@@ -30,7 +30,13 @@ The "afterburner" is applied to event generator files to apply beam effects to t
 The simulation of the ePIC detector in eic-shell is via a Geant4 based DD4hep smulation. Information on running the simulation can be found in the [Simulations using npsim and geant4 tutorial](https://eic.github.io/tutorial-simulations-using-npsim-and-geant4/). In this tutorial, simulations using the `ddsim` and `npsim` commands are discussed. There are significant differences between the two commands. Namely that `npsim` includes siulation of optical photons, the output from a simulation using each command can be quite different. 
 
 > Exercise:
-> - In this task, process 100 events from FILE using ddsim and npsim. Find the difference in QUANTITY for these two files. This difference is your clue from task 5.
+> - In this task, process 100 events from the afterburned file in task 4 using ddsim and npsim and the "epic_craterlake_10x130.xml" configuration. Use eic-shell version "25.08-stable" as in Task 1.
+>   - AB file - /volatile/eic/sjdkay/Scavenger_Hunt/Afterburned_File.hepmc3.tree.root
+> - Find the **ratio** between the total hit energies for npsim to ddsim in the **barrel hadronic calormiter**.
+>   -  "HcalBarrelHits"
+> - Round your value for this ratio to the nearest integer and take $10^{Ratio}$. This value is your clue from task 5.
+>   - $Ratio = \frac{\sum E_{npsim}}{\sum E_{ddsim})$
+>   -  $int(Ratio) \rightarrow 10^{int(Ratio)}$
 {: .challenge}
 
 # Task 6 - Looking at Geometry Files
