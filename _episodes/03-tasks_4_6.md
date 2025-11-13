@@ -14,10 +14,15 @@ The "afterburner" is applied to event generator files to apply beam effects to t
 
 > Exercise:
 > - Download
->   - Non-AB file - An unprocessed file
->   - AB file - A file processed through afterburner
-> - Compare QUANTITY between these files. The difference in QUANTITY between the AB file and Non-AB file is your clue for task 4.
+>   - Non-AB file - /volatile/eic/sjdkay/Scavenger_Hunt/NonAfterburned_File.hepmc3.tree.root
+>   - AB file - /volatile/eic/sjdkay/Scavenger_Hunt/Afterburned_File.hepmc3.tree.root
+> - Find the difference between the mean value of the x component of the momentum for the **beam electrons** in these two files.
+> - Take the absolute value of this difference, multiply it by 10^9 and round it to the nearest integer. This is your clue for task 4.
 {: .challenge}
+
+> Comment:
+> - These are just .hepmc files converted to root trees, not simulation or reconstruction data at this point.
+{: .callout}
 
 # Task 5 - ddsim vs npsim
 
