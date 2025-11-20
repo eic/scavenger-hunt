@@ -28,15 +28,16 @@ In this task, we will do a basic analysis of some information contained within a
 
 > Exercise:
 > - Using the file - `/volatile/eic/EPIC/RECO/25.08.0/epic_craterlake/EXCLUSIVE/UCHANNEL_PI0/18x275/pi0_18x275_uChannel_Q2of0to10_hiDiv.0104.eicrecon.edm4eic.root`, the same as Task 7, do the following using the `MCParticles` branch:
->   - Determine the number of stable, final state electrons 
->   - Determine the number of stable, final state positive pions
-> - Determine the ratio of electrons to pions in this file. The first part of your ratio (e.g. X:Y -> X) is your clue for task 8.
+>   - Determine the number of stable, final state electrons **that have an associated reconstructed particle**
+>   - Determine the number of stable, final state photons **that have an associated reconstructed particle**
+> - Determine multiply the number of electrons and photons you found together to get your answer to task 8.
 {: .challenge}
 
+> Comment:
+> - You will need to utilise the `ReconstructedParticleAssociations` collection to find whether your MC particles have an associated reconstructed particle or not.
+{: .callout}
+
 # Answer Checker
-
-Add info on processing numbers from file if neccessary to make them fit a certain format. E.g. take mod or similar. Link to a google form to check answers.
-
 
 Once you have your solutions from tasks 7-8, you can check your answers using [this link](https://forms.gle/UsAd9T2W1Mq5cSfx9).
 
