@@ -35,6 +35,11 @@ Running eic-shell should now open the specified version. YOu can check this by r
 The version output will printed in the format 6.XX.YY. These numbers XX and YY will be used in the next part of the challenge to find your campaign files.
 {: .challenge}
 
+> Comment:
+> -If you are using a system with CVFMS enabled, such as the JLab farm, you can also run:
+>   - `./eic-shell --version <<version>>` once `eic-shell` is installed
+{: .callout}
+
 # Task 2 - Browsing and Copying Campaign Files
 
 Regular simulation campaigns are run on a monthly basis. In these campaigns, physics and background events are passed through the latest version of the ePIC simulation and reconstruction software.
