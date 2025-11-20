@@ -31,6 +31,7 @@ In this task, we will do a basic analysis of some information contained within a
 >   - Determine the number of stable, final state electrons **that have an associated reconstructed particle**
 >   - Determine the number of stable, final state photons **that have an associated reconstructed particle**
 > - Determine multiply the number of electrons and photons you found together to get your answer to task 8.
+>   - If this product is not a 4 digit integer, add 0's in front to make it a 4 digit number. E.g. `14` would be `0014`.
 {: .challenge}
 
 > Comment:
