@@ -28,11 +28,11 @@ For this task, you will switch your eic-shell version to the one specified in th
 > ./install.sh -v <<version>>
 > eic-shell
 ```
-Running eic-shell should now open the specified version. YOu can check this by running "eic-info". Now you can open root to check your root version. 
+Running eic-shell should now open the specified version. You can check this by running "eic-info". Now you can open root to check your root version. 
 ```js
 > root --version
 ```
-The version output will printed in the format 6.XX.YY. These numbers XX and YY will be used in the next part of the challenge to find your campaign files.
+The version output will printed in the format 6.XX.YY. These numbers XX and YY will be used in the next part of the challenge to find your campaign files. To solve task 1, put your two values into the following equation - $$ XX - YY + 9$$. The solution to this equation is your answer from task 1!
 {: .challenge}
 
 > Comment:
