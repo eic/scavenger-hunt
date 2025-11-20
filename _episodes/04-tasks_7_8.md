@@ -24,11 +24,11 @@ As a formula - $$round(sqrt(Elements/Branches))$$
 
 # Task 8 - Using MC Particles
 
-When analysing simulated data, knowing the underlying truth is very important.
+In this task, we will do a basic analysis of some information contained within a reconstruction file. Namely, we will look at the inforrmation in the MCParticles branch. Accessing the truth information is very important in simulation studes. You may find [lesson 3 of the analysis tutorial](https://eic.github.io/tutorial-analysis/03-analysis/index.html) to be useful here if you have not looked at analysis files before.
 
 > Exercise:
-> - Using the file from task 7, check in the MCParticles branch and:
->   - Determine the number of stable, final state electrons
+> - Using the file - `/volatile/eic/EPIC/RECO/25.08.0/epic_craterlake/EXCLUSIVE/UCHANNEL_PI0/18x275/pi0_18x275_uChannel_Q2of0to10_hiDiv.0104.eicrecon.edm4eic.root`, the same as Task 7, do the following using the `MCParticles` branch:
+>   - Determine the number of stable, final state electrons 
 >   - Determine the number of stable, final state positive pions
 > - Determine the ratio of electrons to pions in this file. The first part of your ratio (e.g. X:Y -> X) is your clue for task 8.
 {: .challenge}
