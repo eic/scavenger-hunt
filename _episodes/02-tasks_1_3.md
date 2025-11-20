@@ -12,15 +12,27 @@ objectives:
 
 eic-shell contains all of the software we need to do an EIC/ePIC analysis. To get started on this task, and all of the others, you will need eic-shell working on either your local machine, or a computing cluster you can access (e.g. BNL or JLab systems). Instructions on installing eic-shell can be found [here](https://eic.github.io/tutorial-setting-up-environment/index.html).
 
-Typically, you should use the latest version of this container. However, on some occassions you may want to reproduce an earlier analysis or result that used a different version of the software within the container. You can switch the container version via -
+Typically, you should use the latest version of this container. However, on some occassions you may want to reproduce an earlier analysis or result that used a different version of the software within the container. You can see what versions of eic-shell are available [here](https://github.com/eic/containers/pkgs/container/eic_xl). You can check your current version from eic-shell:
+```js
+> eic-info
+```
+Your current version is listed at the bottom of this output at the output next to "jug_dev: ". By default, you are likely running the "nightly" release which is the most up-to-date. For this scavenger hunt training activity, we will work from a different, common release. 
 
-COMMAND
-
-For this task, switch your eic-shell version to the one specified in the channel header of the scavenger-hunt mattermost channel. See the instructions [here](https://eic.github.io/documentation/getstarted.html) on how to join mattermost if you're not there already. Either browse and join the channel or follow this [link](https://chat.epic-eic.org/main/channels/scavenger-hunt).
+For this task, you will switch your eic-shell version to the one specified in the channel header of the scavenger-hunt mattermost channel. See the instructions [here](https://eic.github.io/documentation/getstarted.html) on how to join mattermost if you're not there already. Either browse and join the channel or follow this [link](https://chat.epic-eic.org/main/channels/scavenger-hunt).
 
 > Exercise:
-> - Switch to the container version specified in the header of the scavenger-hunt mattermost channel
-> - Uncover which version of SOFTWARE PACKAGE was used in this release. The last two digits are your first clue!
+> - Switch to the container version specified in the header of the scavenger-hunt mattermost channel.
+> - To begin, download the install.sh script:
+```js
+> wget --output-document install.sh https://get.epic-eic.org
+> ./install.sh -v <<version>>
+> eic-shell
+```
+Running eic-shell should now open the specified version. YOu can check this by running "eic-info". Now you can open root to check your root version. 
+```js
+> root --version
+```
+The version output will printed in the format 6.XX.YY. These numbers XX and YY will be used in the next part of the challenge to find your campaign files.
 {: .challenge}
 
 # Task 2 - Browsing and Copying Campaign Files
@@ -29,9 +41,11 @@ Regular simulation campaigns are run on a monthly basis. In these campaigns, phy
 
 Information on browsing and copying files from simulation campaigns is outlined in [this tutorial](https://eic.github.io/tutorial-analysis/01-introduction/index.html). Further information on the campaigns can be found on the [production working group](https://eic.github.io/epic-prod/) pages.
 
+From above, you will access the campaign files in MM=XX/4 in the year 2025. This will follow the format 25.MM.0. 
+
 > Exercise:
-> - Download FILE from the CAMPAIGN. Find out how many events are in this file. 
-> - The number of events in this file are your second clue!
+> - Download the file /volatile/eic/EPIC/RECO/25.MM.0/epic_craterlake/EXCLUSIVE/UCHANNEL_PI0/18x275/pi0_18x275_uChannel_Q2of0to10_hiDiv.01YY.eicrecon.edm4eic.root (replacing MM and YY with the numbers you obtained above)
+> - How many VertexBarrelHits are there in this file? This number is BB and will be needed for the next task.
 {: .challenge}
 
 # Task 3 - Differences Between Event Generators
@@ -45,7 +59,5 @@ Many event generators exist for a wide range of processes. In some cases, the sa
 {: .challenge}
 
 # Answer Checker
-
-Add info on processing numbers from file if neccessary to make them fit a certain format. E.g. take mod or similar. Link to a google form to check answers.
 
 Once you have your solutions from tasks 1-3, you can check your answers using [this link](https://forms.gle/gFqpKTd2nzmHNW6d8).
