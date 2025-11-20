@@ -49,8 +49,8 @@ Information on browsing and copying files from simulation campaigns is outlined 
 From above, you will access the campaign files in MM=XX/4 in the year 2025. This will follow the format 25.MM.0. 
 
 > Exercise:
-> - Download the file /volatile/eic/EPIC/RECO/25.MM.0/epic_craterlake/EXCLUSIVE/UCHANNEL_PI0/18x275/pi0_18x275_uChannel_Q2of0to10_hiDiv.01YY.eicrecon.edm4eic.root (replacing MM and YY with the numbers you obtained above)
-> - How many VertexBarrelHits are there in this file? This number is BB and will be needed for the next task.
+> - Download the file `/volatile/eic/EPIC/RECO/25.MM.0/epic_craterlake/EXCLUSIVE/UCHANNEL_PI0/18x275/pi0_18x275_uChannel_Q2of0to10_hiDiv.01YY.eicrecon.edm4eic.root` (replacing MM and YY with the numbers you obtained above)
+> - How many `VertexBarrelHits` are there in this file? This number is BB and will be needed for the next task.
 {: .challenge}
 
 # Task 3 - Differences Between Event Generators
