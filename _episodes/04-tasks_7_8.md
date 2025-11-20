@@ -10,14 +10,17 @@ objectives:
 
 # Task 7 - Exploring a Reconstructed Output File
 
-From the file you found the afterburned/un-afterburned output from in task 4, download the reconstructed output from the October 2025 simulation campaign. 
+In this task, we will take a closer look at the branches contained within a reconstruction file. You may find [lesson 2 of the analysis tutorial](https://eic.github.io/tutorial-analysis/02-reconstruction-output/index.html) to be useful here if you have not looked at analysis files before.
 
 > Exercise:
+> - Using the file - `/volatile/eic/EPIC/RECO/25.08.0/epic_craterlake/EXCLUSIVE/UCHANNEL_PI0/18x275/pi0_18x275_uChannel_Q2of0to10_hiDiv.0104.eicrecon.edm4eic.root`, do the following:
 > - Check the number of branches this file contains
->   - Find the number of branches relating to the ZDC detector
+>   - Find the number of branches that contain `ZDC` within their name, do not include branches that begin with `_`
 >   - Find the number of branch elements contained within these branches
-> - Divide the number of branch elements by the number of branch elements ROUND (will see if needed) this number to get your clue for task 7.
+> - Divide the number of branch elements by the number of branches, square root this number and round it to the nearest integer. This number to get your clue for task 7.
 {: .challenge}
+
+As a formula - $$round(sqrt(Elements/Branches))$$
 
 # Task 8 - Using MC Particles
 
