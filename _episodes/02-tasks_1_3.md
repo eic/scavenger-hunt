@@ -50,7 +50,9 @@ From above, you will access the campaign files in MM=XX/4 in the year 2025. This
 
 > Exercise:
 > - Download the file `/volatile/eic/EPIC/RECO/25.MM.0/epic_craterlake/EXCLUSIVE/UCHANNEL_PI0/18x275/pi0_18x275_uChannel_Q2of0to10_hiDiv.01YY.eicrecon.edm4eic.root` (replacing MM and YY with the numbers you obtained above)
-> - How many `VertexBarrelHits` are there in this file? This number is BB and will be needed for the next task.
+> - How many entries are within the branch elements of `VertexBarrelHits` for this file? Take this number of entries and enter it into the following equation to get your answer for task 2!
+> - $$round(Entries/5)$$
+> - Note, if this value is a single digit integer, place a `0` in front of it. E.g. `1` becomes `01`.
 {: .challenge}
 
 # Task 3 - Differences Between Event Generators
