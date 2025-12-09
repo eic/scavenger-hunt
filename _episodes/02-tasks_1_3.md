@@ -62,7 +62,8 @@ Many event generators exist for a wide range of processes. In some cases, the sa
 > Exercise:
 > - Grab files: `/volatile/eic/EPIC/RECO/25.MM.0/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eHe3/10x166/q2_10to100/`
 > `BeAGLE1.03.02-1.0_DIS_eHe3_10x166_q2_10to100_ab.04ZZ.eicrecon.edm4eic.root`
-and `/volatile/eic/EPIC/RECO/25.MM.0/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/10x166/q2_10to100/BeAGLE1.03.02-1.2_DIS_eHe3_10x166_q2_10to100_ab.04ZZ.eicrecon.edm4eic.root`
+and `/volatile/eic/EPIC/RECO/25.MM.0/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/10x166/q2_10to100/`
+> `BeAGLE1.03.02-1.2_DIS_eHe3_10x166_q2_10to100_ab.04ZZ.eicrecon.edm4eic.root`
 > - Check the mean of the GeneratedJets.energy in each file.
 > - From the mean values of the GeneratedJets.energy histograms (no cuts), subtract the mean from the 1.0 version from the mean from the 1.2 version. Round this value to the nearest whole number. This is your answer to the third task!
 {: .challenge}
