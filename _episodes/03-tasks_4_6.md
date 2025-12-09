@@ -50,10 +50,9 @@ The detector geometry for the ePIC detector is defined using the DD4he toolkit. 
 
 > Exercise:
 > - Using the version of eic-shell from Tasks 1-3, find the Vertex Barrel Layer thickness of the Vertex Barrel subsystem. This is your clue for task 6.
-```js
-> Locate the `epic_craterlake.xml` file in your DETECTOR_PATH.
-> In this file, locate the file `vertex_barrel.xml`
-> From that file, what is the Vertex Barrel layer thickness? Convert this thicness into units of mm and check your answer in the google form below. 
+> - Locate the `epic_craterlake.xml` file in your DETECTOR_PATH.
+> - In this file, locate the file `vertex_barrel.xml`
+> - From that file, what is the Vertex Barrel layer thickness? Convert this thicness into units of mm and check your answer in the google form below. 
 {: .challenge}
 
 # Answer Checker
