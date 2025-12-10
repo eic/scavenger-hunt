@@ -37,9 +37,7 @@ The version output will printed in the format 6.XX.YY. These numbers XX and YY w
 
 > Comment:
 > - If you are using a system with CVFMS enabled, such as the JLab farm, you can also run:
-```js
 >   - `./eic-shell --version <<version>>` once `eic-shell` is installed
-```
 {: .callout}
 
 # Task 2 - Browsing and Copying Campaign Files
