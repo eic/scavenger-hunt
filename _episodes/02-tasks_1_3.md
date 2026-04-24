@@ -32,7 +32,7 @@ Running eic-shell should now open the specified version. You can check this by r
 ```js
 > root --version
 ```
-The version output will printed in the format 6.XX.YY. These numbers XX and YY will be used in the next part of the challenge to find your campaign files. To solve task 1, put your two values into the following equation: XX - YY + 9 = solution1. The solution to this equation is your answer from task 1!
+The version output will printed in the format 6.XX.YY. These numbers XX and YY will be used in the next part of the challenge to find your campaign files. To solve task 1, put your two values into the following equation: XX - YY + 8 = solution1. The solution to this equation is your answer from task 1!
 {: .challenge}
 
 > Comment:
@@ -68,4 +68,4 @@ and `/volatile/eic/EPIC/RECO/25.MM.0/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/
 
 # Answer Checker
 
-Once you have your solutions from tasks 1-3, you can check your answers using [this link](https://forms.gle/gFqpKTd2nzmHNW6d8).
+<div style="width:100%;height:500px;" data-fillout-id="cvuBQRkB48us" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>
