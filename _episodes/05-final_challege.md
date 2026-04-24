@@ -12,15 +12,15 @@ objectives:
 
 Using the clues from tasks 1-8, download your file. Insert your solutions into the file path below to construct the required path and grab this file!
 
-- /volatile/eic/EPIC/RECO/<span style="color:blue">XX</span>.<span style="color:blue">YY</span>.<span style="color:blue">Z</span>/epic\_craterlake/DIS/NC/<span style="color:red">II</span>x<span style="color:red">JJ</span>/minQ2=<span style="color:red">KK</span>/pythia8NCDIS\_<span style="color:red">II</span>x<span style="color:red">JJ</span>\_minQ2=<span style="color:red">KK</span>\_beamEffects\_xAngle=-0.025\_hiDiv\_<span style="color:green">A</span>.<span style="color:green">BBBB</span>.eicrecon.edm4eic.root
-  - <span style="color:blue">XX</span> - Your answer from task 1
-  - <span style="color:blue">YY</span> - Your answer from task 2
-  - <span style="color:blue">Z</span> - Your answer from task 3
-  - <span style="color:red">II</span> - Your answer from task 4
-  - <span style="color:red">JJ</span> - Your answer from task 5
-  - <span style="color:red">KK</span> - Your answer from task 6
-  - <span style="color:green">A</span> - Your answer from task 7
-  - <span style="color:green">BBBB</span> - Your answer from task 8
+- /volatile/eic/EPIC/RECO/<span style="color:#5790fc">XX</span>.<span style="color:#5790fc">YY</span>.<span style="color:#5790fc">Z</span>/epic\_craterlake/DIS/NC/<span style="color:#f89c20">II</span>x<span style="color:#f89c20">JJ</span>/minQ2=<span style="color:#f89c20">KK</span>/pythia8NCDIS\_<span style="color:#f89c20">II</span>x<span style="color:#f89c20">JJ</span>\_minQ2=<span style="color:#f89c20">KK</span>\_beamEffects\_xAngle=-0.025\_hiDiv\_<span style="color:#e42536">A</span>.<span style="color:#e42536">BBBB</span>.eicrecon.edm4eic.root
+  - <span style="color:#5790fc">XX</span> - Your answer from task 1
+  - <span style="color:#5790fc">YY</span> - Your answer from task 2
+  - <span style="color:#5790fc">Z</span> - Your answer from task 3
+  - <span style="color:#f89c20">II</span> - Your answer from task 4
+  - <span style="color:#f89c20">JJ</span> - Your answer from task 5
+  - <span style="color:#f89c20">KK</span> - Your answer from task 6
+  - <span style="color:#e42536">A</span> - Your answer from task 7
+  - <span style="color:#e42536">BBBB</span> - Your answer from task 8
 
 > Hint:
 > - Don't forget, each task page has an answer checker you can use to see if your solutions are correct.
