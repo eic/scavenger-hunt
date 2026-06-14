@@ -50,7 +50,7 @@ From above, you will access the campaign files in <span style="color:#e42536">MM
 10 in the year 2026. This will follow the format 26.<span style="color:#e42536">MM</span>.1 (where if <span style="color:#e42536">MM</span><10, you will put a 0 in front of the number).
 
 > Exercise:
-> Inserting the number you got for <span style="color:#e42536">MMM</span>:
+> Inserting the number you got for <span style="color:#e42536">MM</span>:
 > - Download the file `epic:/RECO/26.MM.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x100/q2_1_100/EpIC_1.1.6-1.2_DVCS_BH_10x100_q2_1_100_minus_abconv_run0.0MM1.eicrecon.edm4eic.root` (replacing <span style="color:#e42536">MM</span> with the number you obtained above)
 >   - You can check you got the right filepath using the answer checker at the bottom of the page.
 > - How many entries are within the branch elements of `VertexBarrelHits` for this file?
@@ -59,10 +59,10 @@ From above, you will access the campaign files in <span style="color:#e42536">MM
 
 # Task 3 - Differences Between Event Generators
 
-Many event generators exist for a wide range of processes. In some cases, the same process can be simulated using two different versions of the same generator. The output of the two versions can differ. In this task, we will examine the reconstructed output differences from BeAGLE1.03.02-1.0 and BeAGLE1.03.02-1.3. Below replace <span style="color:#7a21dd">NN</span> with the solution to <span style="color:#7a21dd">NN</span> = <span style="color:#5790fc">YY</span> + 2*<span style="color:#e42536">MMM</span> - 1.
+Many event generators exist for a wide range of processes. In some cases, the same process can be simulated using two different versions of the same generator. The output of the two versions can differ. In this task, we will examine the reconstructed output differences from BeAGLE1.03.02-1.0 and BeAGLE1.03.02-1.3. Below replace <span style="color:#7a21dd">NN</span> with the solution to <span style="color:#7a21dd">NN</span> = <span style="color:#5790fc">YY</span> + 2*<span style="color:#e42536">MM</span> - 1.
 
 > Exercise:
-> Inserting the numbers you got for <span style="color:#e42536">MMM</span> and <span style="color:#7a21dd">NN</span>:
+> Inserting the numbers you got for <span style="color:#e42536">MM</span> and <span style="color:#7a21dd">NN</span>:
 > - Grab files: `epic:/RECO/26.MM.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eH2/10x130/q2_1to1000/BeAGLE1.03.02-1.0_DIS_eH2_10x130_q2_1to1000_ab.00NN.eicrecon.edm4eic.root`
 and `epic:/RECO/26.MM.1/epic_craterlake/DIS/BeAGLE1.03.02-1.3/eH2/en/10x130/q2_1to1000/BeAGLE1.03.02-1.3_DIS_eH2_en_10x130_q2_1to1000_ab_run001.00NN.eicrecon.edm4eic.root`
 >   - You can check you got the right filepaths using the answer checker at the bottom of the page.
