@@ -23,7 +23,7 @@ Using the clues from tasks 1-8, download your file. Insert your solutions into t
   - <span style="color:#e42536">BBBB</span> - Your clue from task 8
 
 > Hint:
-> - Don't forget, each task page has an answer checker you can use to see if your solutions are correct and get the clues.
+> - Don't forget, the clues come from the answer checker on each task page!
 {: .callout}
 
 ## Filepath Check
