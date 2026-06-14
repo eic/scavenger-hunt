@@ -32,7 +32,7 @@ Running eic-shell should now open the specified version. You can check this by r
 ```js
 > root --version
 ```
-The version output will printed in the format 6.XX.YY. These numbers XX and YY will be used in the next part of the challenge to find your campaign files. To solve task 1, put your two values into the following equation: XX - YY + 8 = solution1. The solution to this equation is your answer from task 1!
+The version output will printed in the format 6.XX.YY. These numbers <span style="color:#5790fc">XX</span> and <span style="color:#5790fc">YY</span> will be used in the next part of the challenge to find your campaign files. Use them in the answer checker at the bottom of this page!
 {: .challenge}
 
 > Comment:
@@ -44,15 +44,16 @@ The version output will printed in the format 6.XX.YY. These numbers XX and YY w
 
 Regular simulation campaigns are run on a monthly basis. In these campaigns, physics and background events are passed through the latest version of the ePIC simulation and reconstruction software.
 
-Information on browsing and copying files from simulation campaigns is outlined in [this tutorial](https://eic.github.io/tutorial-analysis/01-introduction/index.html). Further information on the campaigns can be found on the [production working group](https://eic.github.io/epic-prod/) pages.
+Information on browsing and copying files from simulation campaigns is outlined in [this tutorial](https://eic.github.io/tutorial-file-access/). Further information on the campaigns can be found on the [production working group](https://eic.github.io/epic-prod/) pages.
 
-From above, you will access the campaign files in MM=(XX-2)/
-10 in the year 2026. This will follow the format 26.MM.1 (where if MM<10, you will put a 0 in front of the number).
+From above, you will access the campaign files in <span style="color:#e42536">MM</span>=(<span style="color:#5790fc">XX</span>-2)/
+10 in the year 2026. This will follow the format 26.<span style="color:#e42536">MM</span>.1 (where if <span style="color:#e42536">MM</span><10, you will put a 0 in front of the number).
 
 > Exercise:
-> - Download the file `epic:/RECO/26.MM.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x100/q2_1_100/`
-> `EpIC_1.1.6-1.2_DVCS_BH_10x100_q2_1_100_minus_abconv_run0.0MM1.eicrecon.edm4eic.root` (replacing MM with the number you obtained above)
-> - How many entries are within the branch elements of `VertexBarrelHits` for this file? Add up all the digits of this number and subtract 15 to get your solution2 value. This number is your answer for task 2 and will be used to locate a file in task 3 (solution2 is ZZ)!
+> - Download the file `epic:/RECO/26.<span style="color:#e42536">MM</span>.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x100/q2_1_100/EpIC_1.1.6-1.2_DVCS_BH_10x100_q2_1_100_minus_abconv_run0.0MM1.eicrecon.edm4eic.root` (replacing <span style="color:#e42536">MM</span> with the number you obtained above)
+> - You can check you got the right filepath using the answer checker at the bottom of the page.
+> - How many entries are within the branch elements of `VertexBarrelHits` for this file?
+> - Enter your answer into the checker to get the next clue!
 {: .challenge}
 
 # Task 3 - Differences Between Event Generators
