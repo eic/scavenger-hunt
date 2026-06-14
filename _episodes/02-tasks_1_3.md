@@ -51,22 +51,21 @@ From above, you will access the campaign files in <span style="color:#e42536">MM
 
 > Exercise:
 > - Download the file `epic:/RECO/26.<span style="color:#e42536">MM</span>.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x100/q2_1_100/EpIC_1.1.6-1.2_DVCS_BH_10x100_q2_1_100_minus_abconv_run0.0MM1.eicrecon.edm4eic.root` (replacing <span style="color:#e42536">MM</span> with the number you obtained above)
-> - You can check you got the right filepath using the answer checker at the bottom of the page.
+>   - You can check you got the right filepath using the answer checker at the bottom of the page.
 > - How many entries are within the branch elements of `VertexBarrelHits` for this file?
 > - Enter your answer into the checker to get the next clue!
 {: .challenge}
 
 # Task 3 - Differences Between Event Generators
 
-Many event generators exist for a wide range of processes. In some cases, the same process can be simulated using two different versions of the same generator. The output of the two versions can differ. In this task, we will examine the reconstructed output differences from BeAGLE1.03.02-1.0 and BeAGLE1.03.02-1.3. Below replace NN with the solution to NN = YY + 2*MM - 1.
+Many event generators exist for a wide range of processes. In some cases, the same process can be simulated using two different versions of the same generator. The output of the two versions can differ. In this task, we will examine the reconstructed output differences from BeAGLE1.03.02-1.0 and BeAGLE1.03.02-1.3. Below replace <span style="color:#7a21dd">NN</span> with the solution to <span style="color:#7a21dd">NN</span> = <span style="color:#5790fc">YY</span> + 2*<span style="color:#e42536">MMM</span> - 1.
 
 > Exercise:
-> - Grab files: `epic:/RECO/26.MM.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eH2/10x130/q2_1to1000/`
-> `BeAGLE1.03.02-1.0_DIS_eH2_10x130_q2_1to1000_ab.00NN.eicrecon.edm4eic.root`
-and `epic:/RECO/26.MM.1/epic_craterlake/DIS/BeAGLE1.03.02-1.3/eH2/en/10x130/q2_1to1000/`
-`BeAGLE1.03.02-1.3_DIS_eH2_en_10x130_q2_1to1000_ab_run001.00NN.eicrecon.edm4eic.root`
+> - Grab files: `epic:/RECO/26.<span style="color:#e42536">MM</span>.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eH2/10x130/q2_1to1000/BeAGLE1.03.02-1.0_DIS_eH2_10x130_q2_1to1000_ab.00<span style="color:#7a21dd">NN</span>.eicrecon.edm4eic.root`
+and `epic:/RECO/26.<span style="color:#e42536">MM</span>.1/epic_craterlake/DIS/BeAGLE1.03.02-1.3/eH2/en/10x130/q2_1to1000/BeAGLE1.03.02-1.3_DIS_eH2_en_10x130_q2_1to1000_ab_run001.00<span style="color:#7a21dd">NN</span>.eicrecon.edm4eic.root`
+>   - You can check you got the right filepaths using the answer checker at the bottom of the page.
 > - Check the mean of the GeneratedJets.energy in each file.
-> - From the mean values of the GeneratedJets.energy histograms (no cuts), subtract the mean from the 1.0 version from the mean from the 1.3 version. Round this value to the nearest whole number and subtract 1. This is your answer to the third task!
+> - From the mean values of the GeneratedJets.energy histograms (no cuts). Select the correct set of two values in the answer checker to get the clue from task 3!
 {: .challenge}
 
 # Answer Checker
