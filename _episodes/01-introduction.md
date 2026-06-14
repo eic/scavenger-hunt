@@ -13,7 +13,9 @@ keypoints:
 Welcome to the ePIC User Learning Scavenger Hunt! This hunt will consist of a series of ePIC software tasks for you to complete. Each task will produce a piece of the filename that you will have to utilise to "solve" the final task. When solved, you will need to input your answer [HERE](https://forms.gle/kxQ2PVPwogN7Drha8).
 If you're correct, you'll find out and receive a special prize as part of the 2026 Collaboration meeting!
 
-The tasks are split into a few distinct blocks which are detailed below. Each block has a dedicated page and there will be a tool included in each for you to use to check if you've got the correct answers. Each page will also include links to some tutorials and resources you might find helpful.
+The tasks are split into a few distinct blocks which are detailed below. Each page will also include links to some tutorials and resources you might find helpful.
+
+Each page has an emedded answer submission form. You will get the clues for the final task from this form. **Make sure you make a note of the clues you get for each task!**
 
 ## Tasks 1-3 - Getting started on Mattermost, working with eic-shell and accessing files
 
