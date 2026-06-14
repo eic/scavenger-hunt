@@ -32,7 +32,7 @@ Running eic-shell should now open the specified version. You can check this by r
 ```js
 > root --version
 ```
-The version output will printed in the format 6.XX.YY. These numbers XX and YY will be used in the next part of the challenge to find your campaign files. To solve task 1, put your two values into the following equation: XX - YY + 9 = solution1. The solution to this equation is your answer from task 1!
+The version output will printed in the format 6.XX.YY. These numbers XX and YY will be used in the next part of the challenge to find your campaign files. To solve task 1, put your two values into the following equation: XX - YY + 8 = solution1. The solution to this equation is your answer from task 1!
 {: .challenge}
 
 > Comment:
@@ -46,26 +46,28 @@ Regular simulation campaigns are run on a monthly basis. In these campaigns, phy
 
 Information on browsing and copying files from simulation campaigns is outlined in [this tutorial](https://eic.github.io/tutorial-analysis/01-introduction/index.html). Further information on the campaigns can be found on the [production working group](https://eic.github.io/epic-prod/) pages.
 
-From above, you will access the campaign files in MM=XX/4 in the year 2025. This will follow the format 25.MM.0 (where if MM<10, you will put a 0 in front of the number).
+From above, you will access the campaign files in MM=(XX-2)/
+10 in the year 2026. This will follow the format 26.MM.1 (where if MM<10, you will put a 0 in front of the number).
 
 > Exercise:
-> - Download the file `/volatile/eic/EPIC/RECO/25.MM.0/epic_craterlake/EXCLUSIVE/UCHANNEL_PI0/18x275/pi0_18x275_uChannel_Q2of0to10_hiDiv.01YY.eicrecon.edm4eic.root` (replacing MM and YY with the numbers you obtained above)
-> - How many entries are within the branch elements of `VertexBarrelHits` for this file? Subtract 10 from this number to get your solution2 value. This number is your answer for task 2 and will be used to locate a file in task 3 (solution2 is ZZ)!
+> - Download the file `epic:/RECO/26.MM.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x100/q2_1_100/`
+> `EpIC_1.1.6-1.2_DVCS_BH_10x100_q2_1_100_minus_abconv_run0.0MM1.eicrecon.edm4eic.root` (replacing MM with the number you obtained above)
+> - How many entries are within the branch elements of `VertexBarrelHits` for this file? Add up all the digits of this number and subtract 15 to get your solution2 value. This number is your answer for task 2 and will be used to locate a file in task 3 (solution2 is ZZ)!
 {: .challenge}
 
 # Task 3 - Differences Between Event Generators
 
-Many event generators exist for a wide range of processes. In some cases, the same process can be simulated using two different versions of the same generator. The output of the two versions can differ. In this task, we will examine the reconstructed output differences from BeAGLE1.03.02-1.0 and BeAGLE1.03.02-1.2. 
+Many event generators exist for a wide range of processes. In some cases, the same process can be simulated using two different versions of the same generator. The output of the two versions can differ. In this task, we will examine the reconstructed output differences from BeAGLE1.03.02-1.0 and BeAGLE1.03.02-1.3. Below replace NN with the solution to NN = YY + 2*MM - 1.
 
 > Exercise:
-> - Grab files: `/volatile/eic/EPIC/RECO/25.MM.0/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eHe3/10x166/q2_10to100/`
-> `BeAGLE1.03.02-1.0_DIS_eHe3_10x166_q2_10to100_ab.04ZZ.eicrecon.edm4eic.root`
-and `/volatile/eic/EPIC/RECO/25.MM.0/epic_craterlake/DIS/BeAGLE1.03.02-1.2/eHe3/10x166/q2_10to100/`
-> `BeAGLE1.03.02-1.2_DIS_eHe3_10x166_q2_10to100_ab.04ZZ.eicrecon.edm4eic.root`
+> - Grab files: `epic:/RECO/26.MM.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eH2/10x130/q2_1to1000/`
+> `BeAGLE1.03.02-1.0_DIS_eH2_10x130_q2_1to1000_ab.00NN.eicrecon.edm4eic.root`
+and `epic:/RECO/26.MM.1/epic_craterlake/DIS/BeAGLE1.03.02-1.3/eH2/en/10x130/q2_1to1000/`
+`BeAGLE1.03.02-1.3_DIS_eH2_en_10x130_q2_1to1000_ab_run001.00NN.eicrecon.edm4eic.root`
 > - Check the mean of the GeneratedJets.energy in each file.
-> - From the mean values of the GeneratedJets.energy histograms (no cuts), subtract the mean from the 1.0 version from the mean from the 1.2 version. Round this value to the nearest whole number. This is your answer to the third task!
+> - From the mean values of the GeneratedJets.energy histograms (no cuts), subtract the mean from the 1.0 version from the mean from the 1.3 version. Round this value to the nearest whole number and subtract 1. This is your answer to the third task!
 {: .challenge}
 
 # Answer Checker
 
-Once you have your solutions from tasks 1-3, you can check your answers using [this link](https://forms.gle/gFqpKTd2nzmHNW6d8).
+<div style="width:100%;height:500px;" data-fillout-id="cvuBQRkB48us" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script>
