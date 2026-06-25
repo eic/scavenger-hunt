@@ -34,7 +34,19 @@ If you want to double check you got the correct file and your plugged in the tas
 
 # Final Challenge
 
-Final challenge TBC. Will be some simple analysis of the required file to download. Produce a plot/quantity and get a number from this. Input the number as an answer - maybe even a specific plot?
+With the filepath you've constructed from your clues, download or stream this file and the **next 9 files in this set** such that you have ten files total. Simply increment the <span style="color:#e42536">BBBB</span> value to get the next in the sequence.
+
+From these ten files, identify using the 'MCParticles' and 'ReconstructedParticles' collection along with their associations:
+
+1. All of the **scattered electrons** that reconstruct in the central detector
+2. All of the **photons** that reconstruct in the central detector
+
+For each set of particles, produce a **2D colour plot** of pseudorapidity (eta) vs |P|. **Upload these as a single pdf or png using the submission link below.**. 
+
+> Hint:
+> - Use the pseudorapidity range of -5 to 5 and |P| range of 0 to 50.
+> - Use bin sizes of 0.1 for pseudorapidity and 0.25 for|P|.
+{: .callout}
 
 # Answer Submission
 
