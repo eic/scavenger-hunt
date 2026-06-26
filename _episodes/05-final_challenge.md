@@ -38,10 +38,10 @@ With the filepath you've constructed from your clues, download or stream this fi
 
 From these ten files, identify using the 'MCParticles' and 'ReconstructedParticles' collection along with their associations:
 
-1. All of the **scattered electrons** that reconstruct in the central detector
+1. All of the **electrons** that reconstruct in the central detector
 2. All of the **photons** that reconstruct in the central detector
 
-For each set of particles, produce a **2D colour plot** of pseudorapidity (eta) vs `|P|`. **Upload these as a single pdf or png using the submission link below.**. 
+For each set of particles, produce a **2D colour plot** of the *true* (MC) pseudorapidity (`#eta`) vs `|P|`. **Upload these as a single pdf or png using the submission link below.**. 
 
 > Hint:
 > - Use the pseudorapidity range of -5 to 5 and `|P|` range of 0 to 50.
