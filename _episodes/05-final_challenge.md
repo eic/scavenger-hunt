@@ -41,7 +41,9 @@ From these ten files, identify using the 'MCParticles' and 'ReconstructedParticl
 1. All of the **electrons** that reconstruct in the central detector
 2. All of the **photons** that reconstruct in the central detector
 
-For each set of particles, produce a **2D colour plot** of the *true* (MC) pseudorapidity (eta) vs `|P|`. **Upload these as a single pdf or png using the submission link below.**. 
+For each set of particles, produce a **2D colour plot** of the *true* (MC) pseudorapidity (eta) vs `|P|`. Set the colour pallete for your plots using the **number of MC particles in the 237th event**. E.g. `gStyle->SetPalette(#MC_Parts);`. If you aren't using ROOT, check the colour palette this corresponds to and set a similar palette.
+
+**Upload these as a single pdf or png using the submission link below.**. 
 
 > Hint:
 > - Use the pseudorapidity range of -5 to 5 and `|P|` range of 0 to 50.
