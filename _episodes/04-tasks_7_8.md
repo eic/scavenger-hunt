@@ -33,7 +33,6 @@ In this task, we will do a basic analysis of some information contained within a
 
 > Comment:
 > - You will need to utilise the `ReconstructedParticleAssociations` collection to find whether your MC particles have an associated reconstructed particle or not.
->   - Note that due to the age of the file here, `_ReconstructedParticleAssociations` is *not* the correct collection to use.
 {: .callout}
 
 # Answer Checker
