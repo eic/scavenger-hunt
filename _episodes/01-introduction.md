@@ -17,6 +17,10 @@ The tasks are split into a few distinct blocks which are detailed below. Each pa
 
 Each page has an emedded answer submission form. You will get the clues for the final task from this form. **Make sure you make a note of the clues you get for each task!**
 
+> Comment:
+> - If you get stuck with any task, feel free to ask or check in on the [Scavenger Hunt Mattermost channel](https://chat.epic-eic.org/main/channels/scavenger-hunt).
+{: .callout}
+
 ## Tasks 1-3 - Getting started on Mattermost, working with eic-shell and accessing files
 
 This series of tasks serves as some setup for future stages, but will also include a few clues and pieces of information we need to find out to solve find the file we need to use for the final task.
