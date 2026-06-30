@@ -31,7 +31,7 @@ The simulation of the ePIC detector in eic-shell is via a Geant4 based DD4hep sm
 > Exercise:
 > - In this task, process 100 events from the afterburned file in task 4 using ddsim and npsim and the `epic_craterlake_10x130.xml` configuration. Use eic-shell version `25.08-stable`.
 >   - AB file: `/volatile/eic/sjdkay/Scavenger_Hunt/Afterburned_File.hepmc3.tree.root`
-> - Check themean of the hit energies for npsim and ddsim in the **barrel hadronic calorimeter** (`HcalBarrelHits`), select which of these values is larger in the answer checker at the bottom of the page to get your clue from task 5.
+> - Check the mean of the hit energies for npsim and ddsim in the **barrel hadronic calorimeter** (`HcalBarrelHits`), select which of these values is larger in the answer checker at the bottom of the page to get your clue from task 5.
 {: .challenge}
 
 # Task 6 - Looking at Geometry Files
