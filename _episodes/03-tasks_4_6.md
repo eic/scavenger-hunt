@@ -26,12 +26,12 @@ The "afterburner" is applied to event generator files to apply beam effects to t
 
 # Task 5 - ddsim vs npsim
 
-The simulation of the ePIC detector in eic-shell is via a Geant4 based DD4hep smulation. Information on running the simulation can be found in the [Simulations using npsim and geant4 tutorial](https://eic.github.io/tutorial-simulations-using-npsim-and-geant4/). In this tutorial, simulations using the `ddsim` and `npsim` commands are discussed. You might also find the [Geometry Development with DD4hep tutorial](https://eic.github.io/tutorial-geometry-development-using-dd4hep/) useful. There are significant differences between the two commands. Namely that `npsim` includes simulation of optical photons, the output from a simulation using each command can be quite different. 
+The simulation of the ePIC detector in eic-shell is via a Geant4 based DD4hep smulation. Information on running the simulation can be found in the [Simulations using npsim and geant4 tutorial](https://eic.github.io/tutorial-simulations-using-npsim-and-geant4/). In this tutorial, simulations using the `ddsim` and `npsim` commands are discussed. You might also find the [Geometry Development with DD4hep tutorial](https://eic.github.io/tutorial-geometry-development-using-dd4hep/) useful. There are significant differences between the two commands. The output from a simulation using each command can be quite different. 
 
 > Exercise:
 > - In this task, process 100 events from the afterburned file in task 4 using ddsim and npsim and the `epic_craterlake_10x130.xml` configuration. Use eic-shell version `25.08-stable`.
 >   - AB file: `/volatile/eic/sjdkay/Scavenger_Hunt/Afterburned_File.hepmc3.tree.root`
-> - Find the **ratio** between the mean of the hit energies for npsim to ddsim in the **barrel hadronic calorimeter** (`HcalBarrelHits`), put this value into the answer checker at the bottom of the page to get your clue from task 5.
+> - Check themean of the hit energies for npsim and ddsim in the **barrel hadronic calorimeter** (`HcalBarrelHits`), select which of these values is larger in the answer checker at the bottom of the page to get your clue from task 5.
 {: .challenge}
 
 # Task 6 - Looking at Geometry Files
