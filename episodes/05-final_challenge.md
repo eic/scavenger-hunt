@@ -2,13 +2,21 @@
 title: "Final Challenge"
 teaching: 0
 exercises: 120
-questions:
-- "Information on the final challenge"
-objectives:
-- "Solve the final challenge!"
 ---
 
-# Download your file
+::::::::::::::::::::::::::::::::::::::::::::: questions
+
+- Information on the final challenge
+
+:::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::::::::::: objectives
+
+- Solve the final challenge!
+
+:::::::::::::::::::::::::::::::::::::::::::::
+
+## Download your file
 
 Using the clues from tasks 1-8, download your file. Insert your solutions into the file path below to construct the required path and grab this file!
 
@@ -22,17 +30,25 @@ Using the clues from tasks 1-8, download your file. Insert your solutions into t
   - <span style="color:#e42536">A</span> - Your clue from task 7
   - <span style="color:#e42536">BBBB</span> - Your clue from task 8
 
-> Hint:
-> - Don't forget, the clues come from the answer checker on each task page!
-{: .callout}
+::::::::::::::::::::::::::::::::::::::::::::: callout
+
+Hint:
+
+- Don't forget, the clues come from the answer checker on each task page!
+
+:::::::::::::::::::::::::::::::::::::::::::::
 
 ## Filepath Check
 
 If you want to double check you got the correct file and your plugged in the task clues correctly, use the checker form below:
 
-<div style="width:100%;height:500px;" data-fillout-id="kpyzDxkE9Fus" data-fillout-embed-type="standard" data-fillout-inherit-parameters></div><script src="https://server.fillout.com/embed/v1/"></script>
+```{=html}
+<div style="width:100%;height:500px;" data-fillout-id="kpyzDxkE9Fus" data-fillout-embed-type="standard" data-fillout-inherit-parameters>
+</div>
+<script src="https://server.fillout.com/embed/v1/"></script>
+```
 
-# Final Challenge
+## Final Challenge
 
 With the filepath you've constructed from your clues, download or stream this file and the **next 9 files in this set** such that you have ten files total. Simply increment the <span style="color:#e42536">BBBB</span> value to get the next in the sequence.
 
@@ -45,11 +61,21 @@ For each set of particles, produce a **2D colour plot** of the *true* (MC) pseud
 
 **Upload these as a single pdf or png using the submission link below.**
 
-> Hint:
-> - Use the pseudorapidity range of -5 to 5 and `|P|` range of 0 to 50.
-> - Use bin sizes of 0.1 for pseudorapidity and 0.25 for`|P|`.
-{: .callout}
+::::::::::::::::::::::::::::::::::::::::::::: callout
 
-# Answer Submission
+Hint:
 
-Submit your final answer using [this link](https://forms.gle/kxQ2PVPwogN7Drha8) - good luck!
+- Use the pseudorapidity range of -5 to 5 and `|P|` range of 0 to 50.
+- Use bin sizes of 0.1 for pseudorapidity and 0.25 for`|P|`.
+
+:::::::::::::::::::::::::::::::::::::::::::::
+
+## Answer Submission
+
+Submit your final answer using [the answer submission form](https://forms.gle/kxQ2PVPwogN7Drha8) - good luck!
+
+::::::::::::::::::::::::::::::::::::::::::::: keypoints
+
+- Solve the final challenge!
+
+:::::::::::::::::::::::::::::::::::::::::::::

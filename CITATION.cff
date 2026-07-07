@@ -1,0 +1,30 @@
+# This CITATION.cff file provides information used to cite this lesson.
+# Visit https://citation-file-format.github.io/ for the format reference,
+# and update the author list and other fields as the lesson develops.
+
+cff-version: 1.2.0
+title: 'ePIC User Learning Scavenger Hunt (ePIC tutorial)'
+message: >-
+  Please cite this lesson using the information in this file
+  when you refer to it in publications, and/or if you
+  re-use, adapt, or expand on the content in your own
+  training material.
+type: dataset
+authors:
+  - given-names: Stephen
+    family-names: Kay
+  - name: The ePIC Collaboration
+abstract: >-
+  A self-guided ePIC tutorial in the form of a scavenger hunt: a series of
+  software tasks covering eic-shell, campaign file access, simulation,
+  detector geometry, and reconstruction-output analysis, each yielding a clue
+  toward a final challenge. Built with The Carpentries Workbench.
+keywords:
+  - EIC
+  - ePIC
+  - eic-shell
+  - simulation
+  - reconstruction
+  - analysis
+repository-code: 'https://github.com/eic/scavenger-hunt'
+license: CC-BY-4.0
