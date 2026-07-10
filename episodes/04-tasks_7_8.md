@@ -18,7 +18,7 @@ exercises: 120
 
 ## Task 7 - Exploring a Reconstructed Output File
 
-In this task, we will take a closer look at the branches contained within a reconstruction file. You may find [lesson 2 of the analysis tutorial](https://eic.github.io/tutorial-analysis/02-reconstruction-output/index.html) to be useful here if you have not looked at analysis files before.
+In this task, we will take a closer look at the branches contained within a reconstruction file. You may find [lesson 2 of the analysis tutorial](https://eic.github.io/tutorial-analysis/02-reconstruction-output.html) to be useful here if you have not looked at analysis files before.
 
 ::::::::::::::::::::::::::::::::::::::::::::: challenge
 
@@ -43,7 +43,7 @@ to receive the task 7 clue.
 
 ## Task 8 - Using MC Particles
 
-In this task, we will do a basic analysis of some information contained within a reconstruction file. Namely, we will look at the inforrmation in the MCParticles branch. Accessing the truth information is very important in simulation studes. You may find [lesson 3 of the analysis tutorial](https://eic.github.io/tutorial-analysis/03-analysis/index.html) to be useful here if you have not looked at analysis files before.
+In this task, we will do a basic analysis of some information contained within a reconstruction file. Namely, we will look at the inforrmation in the MCParticles branch. Accessing the truth information is very important in simulation studes. You may find [lesson 3 of the analysis tutorial](https://eic.github.io/tutorial-analysis/03-analysis.html) to be useful here if you have not looked at analysis files before.
 
 ::::::::::::::::::::::::::::::::::::::::::::: challenge
 
