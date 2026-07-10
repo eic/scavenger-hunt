@@ -1,0 +1,39 @@
+---
+title: "Introduction"
+teaching: 5
+exercises: 0
+questions:
+- "How do I start the scavenger hunt?"
+objectives:
+- "Start the hunt!"
+keypoints:
+- "Welcome to the ePIC User Learning Scavenger Hunt!"
+---
+
+Welcome to the ePIC User Learning Scavenger Hunt! This hunt will consist of a series of ePIC software tasks for you to complete. Each task will produce a piece of the filename that you will have to utilise to "solve" the final task. When solved, you will need to input your answer [HERE](https://forms.gle/kxQ2PVPwogN7Drha8).
+If you're correct, you'll find out and receive a special prize as part of the 2026 Collaboration meeting!
+
+The tasks are split into a few distinct blocks which are detailed below. Each page will also include links to some tutorials and resources you might find helpful.
+
+Each page has an emedded answer submission form. You will get the clues for the final task from this form. **Make sure you make a note of the clues you get for each task!**
+
+> Comment:
+> - If you get stuck with any task, feel free to ask or check in on the [Scavenger Hunt Mattermost channel](https://chat.epic-eic.org/main/channels/scavenger-hunt).
+{: .callout}
+
+## Tasks 1-3 - Getting started on Mattermost, working with eic-shell and accessing files
+
+This series of tasks serves as some setup for future stages, but will also include a few clues and pieces of information we need to find out to solve find the file we need to use for the final task.
+
+## Tasks 4-6 - Running Simulations, afterburner and checking geometry
+
+This series of tasks gets you started on simulating ePIC data and understanding the ePIC simulation.
+
+## Tasks 7-8 - Looking at Campaign Output, Analysing it
+
+These two tasks will involve analysing simulation campaign data.
+
+## Final Task 
+
+Once you piece together the filename from the three task blocks, you can then find it and complete the final task. This page will also include a link to the answer submission page.
+
