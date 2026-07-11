@@ -145,10 +145,16 @@
     <loc>https://eic.github.io/scavenger-hunt/_layouts/workshop.html</loc>
   </url>
   <url>
+    <loc>https://eic.github.io/scavenger-hunt/aio.html</loc>
+  </url>
+  <url>
     <loc>https://eic.github.io/scavenger-hunt/citation.html</loc>
   </url>
   <url>
     <loc>https://eic.github.io/scavenger-hunt/discuss.html</loc>
+  </url>
+  <url>
+    <loc>https://eic.github.io/scavenger-hunt/images.html</loc>
   </url>
   <url>
     <loc>https://eic.github.io/scavenger-hunt/index.html</loc>
@@ -178,19 +184,37 @@
     <loc>https://eic.github.io/scavenger-hunt/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://eic.github.io/scavenger-hunt/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://eic.github.io/scavenger-hunt/instructor/citation.html</loc>
   </url>
   <url>
     <loc>https://eic.github.io/scavenger-hunt/instructor/discuss.html</loc>
   </url>
   <url>
+    <loc>https://eic.github.io/scavenger-hunt/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://eic.github.io/scavenger-hunt/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://eic.github.io/scavenger-hunt/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://eic.github.io/scavenger-hunt/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://eic.github.io/scavenger-hunt/instructor/profiles.html</loc>
   </url>
   <url>
     <loc>https://eic.github.io/scavenger-hunt/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://eic.github.io/scavenger-hunt/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://eic.github.io/scavenger-hunt/key-points.html</loc>
   </url>
   <url>
     <loc>https://eic.github.io/scavenger-hunt/profiles.html</loc>
