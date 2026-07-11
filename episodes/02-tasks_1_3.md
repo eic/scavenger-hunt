@@ -84,16 +84,15 @@ From above, you will access the campaign files in <span style="color:#e42536">MM
 
 Inserting the number you got for <span style="color:#e42536">MM</span>:
 
-- Download the file `epic:/RECO/26.MM.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x100/q2_1_100/EpIC_1.1.6-1.2_DVCS_BH_10x100_q2_1_100_minus_abconv_run0.0MM1.eicrecon.edm4eic.root` (replacing <span style="color:#e42536">MM</span> with the number you obtained above)
-  - You can check you got the right filepath using the answer checker at the bottom of the page.
+- Download a file with the DID `epic:/RECO/26.MM.1/epic_craterlake/EXCLUSIVE/DVCS_ABCONV/EpIC_v1.1.6-1.2/10x100/q2_1_100/EpIC_1.1.6-1.2_DVCS_BH_10x100_q2_1_100_minus_abconv_run0.0MM1.eicrecon.edm4eic.root` (replacing <span style="color:#e42536">MM</span> with the number you obtained above)
+  - You can check you got the right DID using the answer checker at the bottom of the page.
 - How many entries are within the branch elements of `VertexBarrelHits` for this file?
 - Enter your answer into the checker to get the next clue!
 
 ::::::::::::::: solution
 
 Once the file is copied locally you can open it in ROOT and inspect the `VertexBarrelHits` branch
-(for example with `events->Draw("VertexBarrelHits.energy")` or `events->GetEntries()` on the
-relevant collection). Enter the number of entries into the answer checker to receive the clue.
+(for example with `events->Draw("VertexBarrelHits.eDep")` another collection within the branch). Enter the number of entries into the answer checker to receive the clue.
 
 :::::::::::::::
 
@@ -109,7 +108,7 @@ Many event generators exist for a wide range of processes. In some cases, the sa
 
 Inserting the numbers you got for <span style="color:#e42536">MM</span> and <span style="color:#7a21dd">NN</span>:
 
-- Grab files: `epic:/RECO/26.MM.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eH2/10x130/q2_1to1000/BeAGLE1.03.02-1.0_DIS_eH2_10x130_q2_1to1000_ab.00NN.eicrecon.edm4eic.root`
+- Grab files from the following DIDs: `epic:/RECO/26.MM.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eH2/10x130/q2_1to1000/BeAGLE1.03.02-1.0_DIS_eH2_10x130_q2_1to1000_ab.00NN.eicrecon.edm4eic.root`
 and `epic:/RECO/26.MM.1/epic_craterlake/DIS/BeAGLE1.03.02-1.3/eH2/en/10x130/q2_1to1000/BeAGLE1.03.02-1.3_DIS_eH2_en_10x130_q2_1to1000_ab_run001.00NN.eicrecon.edm4eic.root`
 
   - You can check you got the right filepaths using the answer checker at the bottom of the page.
