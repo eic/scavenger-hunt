@@ -38,9 +38,9 @@ Hint:
 
 :::::::::::::::::::::::::::::::::::::::::::::
 
-## Filepath Check
+## DID Check
 
-If you want to double check you got the correct file and your plugged in the task clues correctly, use the checker form below:
+If you want to double check you got the correct DID and your plugged in the task clues correctly, use the checker form below:
 
 ```{=html}
 <div style="width:100%;height:500px;" data-fillout-id="kpyzDxkE9Fus" data-fillout-embed-type="standard" data-fillout-inherit-parameters>
@@ -50,7 +50,7 @@ If you want to double check you got the correct file and your plugged in the tas
 
 ## Final Challenge
 
-With the filepath you've constructed from your clues, download or stream this file and the **next 9 files in this set** such that you have ten files total. Simply increment the <span style="color:#e42536">BBBB</span> value to get the next in the sequence.
+With the DID you've constructed from your clues, download or stream this file and the **next 9 files in this set** such that you have ten files total. Simply increment the <span style="color:#e42536">BBBB</span> value to get the next in the sequence.
 
 From these ten files, identify using the 'MCParticles' and 'ReconstructedParticles' collection along with their associations:
 

@@ -111,7 +111,7 @@ Inserting the numbers you got for <span style="color:#e42536">MM</span> and <spa
 - Grab files from the following DIDs: `epic:/RECO/26.MM.1/epic_craterlake/DIS/BeAGLE1.03.02-1.0/eH2/10x130/q2_1to1000/BeAGLE1.03.02-1.0_DIS_eH2_10x130_q2_1to1000_ab.00NN.eicrecon.edm4eic.root`
 and `epic:/RECO/26.MM.1/epic_craterlake/DIS/BeAGLE1.03.02-1.3/eH2/en/10x130/q2_1to1000/BeAGLE1.03.02-1.3_DIS_eH2_en_10x130_q2_1to1000_ab_run001.00NN.eicrecon.edm4eic.root`
 
-  - You can check you got the right filepaths using the answer checker at the bottom of the page.
+  - You can check you got the right DIDs using the answer checker at the bottom of the page.
 - Check the mean of the GeneratedJets.energy in each file.
 - From the mean values of the GeneratedJets.energy histograms (no cuts). Select the correct set of two values in the answer checker to get the clue from task 3!
 
