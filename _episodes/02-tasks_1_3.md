@@ -25,6 +25,7 @@ For this task, you will switch your eic-shell version to the one specified in th
 > - To begin, download the install.sh script:
 ```js
 > wget --output-document install.sh https://get.epic-eic.org
+> chmod +x ./install.sh
 > ./install.sh -v <<version>>
 > eic-shell
 ```
