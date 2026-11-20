@@ -25,9 +25,8 @@ In this task, we will take a closer look at the branches contained within a reco
 ## Exercise: Count ZDC branches
 
 - Using the file - `epic:/RECO/25.10.2/epic_craterlake/EXCLUSIVE/UCHANNEL_PI0/18x275/pi0_18x275_uChannel_Q2of0to10_hiDiv.0104.eicrecon.edm4eic.root`, do the following:
-- Check the number of branches this file contains
   - Find the number of branches that contain `ZDC` within their name, do not include branches that begin with `_`
-  - Check how many elements the "ReconstructedFarForwardZDCNeutrals" branch collection has
+  - Check how many sub-branches the "ReconstructedFarForwardZDCNeutrals" branch collection has
   - Select the corresponding values in the answer checker at the bottom of this page to get your clue for task 7!
 
 ::::::::::::::: solution
@@ -69,7 +68,7 @@ clue.
 
 Comment:
 
-- You will need to utilise the `ReconstructedParticleAssociations` collection to find whether your MC particles have an associated reconstructed particle or not.
+- You will need to utilise the `ReconstructedParticleAssociations` collection to find whether your MC particles have an associated reconstructed particle or not. Count every association entry.
 
 :::::::::::::::::::::::::::::::::::::::::::::
 
